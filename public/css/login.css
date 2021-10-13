@@ -1,0 +1,48 @@
+.container {
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  margin-top: 8rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* border: 1px solid black; */
+}
+.form {
+  margin-top: 4rem;
+}
+.feild {
+  width: 18rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+}
+.feild:focus {
+  border: none;
+}
+.container h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-align: center;
+  /* margin-top: 4rem; */
+  padding-top: 2rem;
+}
+.submit {
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  color: orange;
+  border: none;
+  border-radius: 1rem;
+  margin-left: 6rem;
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+.submit:hover {
+  color: black;
+  background-color: orange;
+}
