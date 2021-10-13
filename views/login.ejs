@@ -2,13 +2,20 @@
   <title>Log in</title>
   <link rel="stylesheet" href="./css/login.css" />
 </head>
-<div class="login">
-  <div class="container">
-    <h1>Log In</h1>
-    <form action="" method="POST" class="form">
-      <input type="text" placeholder="Email" class="feild" />
-      <input type="text" placeholder="Password" class="feild" />
-      <input type="submit" class="submit" />
-    </form>
+<body>
+  <div class="login">
+    <div class="container">
+      <h1>Log In</h1>
+      <form action="/login" method="POST" class="form">
+        <input type="text" placeholder="Email" class="feild" name="Email" />
+        <input
+          type="password"
+          placeholder="Password"
+          class="feild"
+          name="Password"
+        />
+        <input type="submit" class="submit" />
+      </form>
+    </div>
   </div>
-</div>
+</body>

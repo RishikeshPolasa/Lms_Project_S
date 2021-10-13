@@ -2,14 +2,28 @@
   <title>Sign Up</title>
   <link rel="stylesheet" href="./css/register.css" />
 </head>
-<div class="login">
-  <div class="container">
-    <h1>Sign up</h1>
-    <form action="" method="POST" class="form">
-      <input type="text" placeholder="Name" class="feild" />
-      <input type="text" placeholder="Email" class="feild" />
-      <input type="text" placeholder="Password" class="feild" />
-      <input type="submit" class="submit" />
-    </form>
+
+<body>
+  <div class="login">
+    <div class="container">
+      <h1>Sign up</h1>
+      <form action="/register" method="POST" class="form">
+        <input type="text" placeholder="Name" class="feild" name="Name" />
+        <input type="text" placeholder="Email" class="feild" name="Email" />
+        <input
+          type="password"
+          placeholder="Password"
+          class="feild"
+          name="Password"
+        />
+        <input
+          type="password"
+          placeholder="ConfirmPassword"
+          class="feild"
+          name="ConfirmPassword"
+        />
+        <input type="submit" class="submit" />
+      </form>
+    </div>
   </div>
-</div>
+</body>
