@@ -1,0 +1,42 @@
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="./css/profile.css" />
+</head>
+<body>
+  <div>
+    <div class="first">
+      <div class="image">
+        <img src="<%= image%>" alt="UserImage" />
+      </div>
+      <div class="inner_first_details">
+        <h1 class="name"><%= name%></h1>
+        <h1 class="email"><%= email%></h1>
+      </div>
+      <div class="links logout">
+        <a href="/logout">Logout</a>
+      </div>
+      <div class="links">
+        <a href="/course">Course</a>
+      </div>
+    </div>
+    <div class="second">
+      <h3>Account</h3>
+      <div class="username">
+        <label for="username">Username</label>
+        <p><%= name%></p>
+      </div>
+      <div class="second_email">
+        <label for="username">Email</label>
+        <p><%= email%></p>
+      </div>
+      <div class="title">
+        <label for="username">Title</label>
+        <p><%= title%></p>
+      </div>
+      <div class="language">
+        <label for="username">Language</label>
+        <p><%= language%></p>
+      </div>
+    </div>
+  </div>
+</body>

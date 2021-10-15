@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+.link {
+  height: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.link h1 {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.link a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: blue;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+.link p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
